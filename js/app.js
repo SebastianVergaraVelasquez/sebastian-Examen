@@ -6,6 +6,8 @@ beginButton.addEventListener('click', () => {
     // opciones de la ventana
     // referente a la calidad de la app
 
+
+    //creacion y adicion de cada elemento a la pantalla principal
     container.innerHTML = "";
     const titulo = document.createElement('h1');
     titulo.innerText = '¿Que nivel de calidad estas buscando?';
